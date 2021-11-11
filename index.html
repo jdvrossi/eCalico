@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>e-Calico</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+		
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Video -->
+							<section id="intro" class="main">
+								
+									<div id="main">
+
+										<video  id="video" autoplay> 
+
+										<source id="sv" src="VIDEO_/video/Ecocalico.mp4"   width="800" height="600" type="video/mp4">	
+
+										</video>	
+										<button class="button1" id="jump" onClick="enableButton2()"></button>
+										<button class="button2" id="jump1" onClick="showImage2(); enableButton3()" disabled ></button>
+										<button class="button3" id="jump2" onClick="enableButton4()" disabled ></button>
+										<button class="button4" id="jump3" onClick="showImage4();" disabled ></button>
+
+										<button class="button1B" id="jumpB" onClick="showImage(); enableButton2B()"></button>
+										<button class="button2B" id="jump1B" onClick="enableButton3B()" disabled ></button>
+										<button class="button3B" id="jump2B" onClick="showImage3(); enableButton4B()" disabled ></button>
+										<button class="button4B" id="jump3B" onClick="" disabled ></button>
+
+										<button class="B_PV" id="jumpV" onClick="enableButtonP()"></button>
+										<button class="B_PV1" id="jumpV1" onClick="enableButtonP1()" disabled></button>
+										<button class="B_PV1" id="jumpV2" onClick="enableButtonP2()" disabled></button>
+										<button class="B_PV1" id="jumpV3" onClick="enableButtonP3()" disabled></button>
+										
+										<div class="hamburger-menu">
+											<div class="bar top"></div>
+											<div class="bar middle"></div>
+											<div class="bar bottom"></div>
+											<div class="popout-menu">
+												<div class="buttonHamMen">
+													<div class="imgFloresUp" id="Up"><img src="./images/Adornoup.svg" width="1000" height="160" alt="AdornoArriba"></div>
+			
+													<div class = "OpcionesHam">
+														<div>
+														<ul>
+															<li><a #href = "Misiones" onclick="showMision()">Misiones</a></li>
+														</ul>
+														</div>
+			
+														<div>
+														<ul>
+															<li><a #href = "Creditos" onclick="showCredito()">Créditos</a></li>
+														</ul>
+														</div>
+													</div>
+			
+														<div class="content">
+														<div id="Misiones">
+															
+															<div class="btnvertical">
+																<h3>Bienvenido, quieres completar una misión en concreto? ¡elige una!</h3>
+																<div class="btnhorizontal">
+																	<button class="btnMision" onClick="btnImpactoE()" id="btnIE" type="button">Impacto Económico</button>
+																	<button class="btnMision" onClick="btnImpactoA()" id="btnIA" type="button">Impacto Ambiental</button>
+																</div>
+																<div class="btnhorizontal">
+																	<button class="btnMision" onClick="btnImpactoS()" id="btnIS" type="button">Impacto Social</button>
+																	<button class="btnMision" onClick="btnImpactoC()" id="btnIC" type="button">Impacto Cultural</button>
+																</div>
+															</div>
+														</div>
+														</div>
+			
+														<div class="content">
+														<div id="Creditos">
+															<div class= "tarjeta">
+																<div class="foto">
+																	<img src="./images/FotoCamila.png" width="180" height="180" alt="FotoCamila">
+																</div>
+																<p><br>Maria Camila <br> Ruiz Martinez</p>
+																<h4>Project Manager</h4>
+															</div>
+			
+															<div class= "tarjeta">
+																<div class="foto">
+																	<img src="./images/FotoVallejo.png" width="180" height="180" alt="FotoVallejo">
+																</div>
+																<p><br>Juan David<br>Vallejo Rossi</p>
+																<h4>Back-End Developer</h4>
+															</div>
+			
+															<div class= "tarjeta">
+																<div class="foto">
+																	<img src="./images/Alejandropng.png" width="180" height="180" alt="FotoAlejandro">
+																</div>
+																<p><br>Javier Alejandro<br>Benitez Ramirez</p>
+																<h4>Front-End Developer</h4>
+															</div>
+			
+															<div class= "tarjeta">
+																<div class="foto">
+																	<img src="./images/FotoKamilo.png" width="180" height="180" alt="FotoKamilo">
+																</div>
+																<p><br>Kamilo Stevan<br>Alomías Correa</p>
+																<h4>UI/Content Designer</h4>
+															</div>
+			
+														</div>
+														</div>
+														<div class="imgFloresDo" id="Down"><img src="./images/Adornodo.svg" width="1000" height="180" alt="AdornoAbajo"></div>
+													</div>
+			
+			
+												</div>
+											</div>
+
+
+											<div class="C_Medal" id="CMedal" >
+
+											
+											<div class="_Medal">
+												<img class="medal" id="medalV1" src="./VIDEO_/video/medal.png"/>
+											</div>
+											<div class="_Medal2">
+												<img class="medal" id="medalV2" src="./VIDEO_/video/medal.png"/>
+											</div>
+											<div class="_Medal3">
+												<img class="medal" id="medalV3" src="./VIDEO_/video/medal.png"/>
+											</div>
+											<div class="_Medal4">
+												<img class="medal" id="medalV4" src="./VIDEO_/video/medal.png"/>
+											</div>
+										</div>
+										  </div>
+									</div>
+							</section>
+					</div>
+
+					
+
+		<!-- Scripts -->
+			<script src="VIDEO_/src/Prueba.js"></script>
+
+			<script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

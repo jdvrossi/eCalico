@@ -1,0 +1,53 @@
+body{
+   
+    position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+width: 80%;
+height: 80vh;
+position: center;
+}
+
+#video{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 90%;
+    z-index: -10;
+    position:center;
+    }
+
+  #volver{
+      width: 10%;
+      height: 10%;
+      bottom: 20%;
+  }
+
+.buttons{   
+border: solid thin #000;
+position: absolute;
+z-index: 100;
+width: 20%;
+height: 15%;
+display: none;
+opacity: 0;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+
+#b1{
+    top: 65%;
+    left: 10%;
+    
+}
+#b2{
+    top: 65%;
+    left: 60%;
+   
+}
